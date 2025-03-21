@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person_24"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category_24"
+            android:title="@string/menu_category" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_24"
+            android:title="About Us"/>
+        <item
+            android:id="@+id/nav_carte"
+            android:icon="@drawable/cart_24"
+            android:title="My Cartes"/>
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/orders_24"
+            android:title="My Orders"/>
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

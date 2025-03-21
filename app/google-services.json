@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48811081781",
+    "project_id": "app-josrom",
+    "storage_bucket": "app-josrom.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48811081781:android:7108695602ce2dc2bbf17c",
+        "android_client_info": {
+          "package_name": "com.example.app_josrom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIsrNGzluHNBPJsoXpj5920wtUFNo70Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
